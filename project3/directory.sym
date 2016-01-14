@@ -1,0 +1,21 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CHECK                   301A
+//	END                     3030
+//	ENTER                   3064
+//	FRSTND                  3036
+//	ID                      3035
+//	LEFT                    3021
+//	MASK                    3067
+//	MCR                     3066
+//	NE                      302D
+//	NEG                     3025
+//	NOENT                   305A
+//	POS                     3022
+//	PROMPT                  3037
+//	REQUEST                 3000
+//	RIGHT                   3020
+//	STRING1                 3032
+//	STRING2                 3033
+//	STRING3                 3034
+//	ZERO                    3028

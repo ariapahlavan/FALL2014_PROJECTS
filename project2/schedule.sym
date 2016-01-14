@@ -1,0 +1,26 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	BACK                    303C
+//	COUNT                   3033
+//	DENY                    303B
+//	END                     3048
+//	ENDTIME                 304C
+//	HRS                     304E
+//	ID                      304B
+//	INPUT                   304A
+//	LAST                    3027
+//	LOOP1                   3001
+//	LOOP3                   3040
+//	MODIFY                  3043
+//	NEG1                    3007
+//	NEG2                    3014
+//	NEG3                    3020
+//	NXT1                    300F
+//	NXT2                    301B
+//	REQTIME                 304F
+//	RIGHT1                  3008
+//	RIGHT2                  3015
+//	RIGHT3                  3021
+//	SCHED                   3049
+//	START                   304D
+//	SUBT                    303A

@@ -1,0 +1,19 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	COUNT                   3071
+//	DELAY                   3016
+//	END                     301E
+//	FIRST                   3020
+//	FRSTLN                  3005
+//	IE                      3077
+//	INITIAL                 301F
+//	KBISR                   3075
+//	KBIV                    3074
+//	KBSR                    3076
+//	NEWLN                   3070
+//	REP                     3019
+//	SAVE_R7                 3073
+//	SCND                    300D
+//	SECOND                  304A
+//	SPACE                   306F
+//	Save_R1                 3072

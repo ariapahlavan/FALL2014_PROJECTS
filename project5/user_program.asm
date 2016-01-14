@@ -8,56 +8,23 @@
 	LD R0,IE	; enable keyboard interrupts
 	STI R0,KBSR
 			
-FRSTLN	AND R1,R1,#0	; start of actual user program to print Texas checkerboard
-	AND R2,R2,#0
-	ADD R1,R1,#4
-FOUR	ADD R2,R2,#7
-	LD R0,T
-	OUT
-	LD R0,E
-	OUT
-	LD R0,X
-	OUT
-	LD R0,A
-	OUT
-	LD R0,S
-	OUT
-
-		
-SPCING	LD R0,SPACE
-	OUT
-	ADD R2,R2,#-1
-	BRnp SPCING
-	
-	ADD R1,R1,#-1
-	BRnp FOUR
+FRSTLN	LEA R0,FIRST
+	PUTS
 	LD R0,NEWLN
 	OUT
 	JSR DELAY
+	JSR DELAY
+	JSR DELAY
+	JSR DELAY
+ 
 
-SCNDLN	ADD R1,R1,#3
-THREE	ADD R2,R2,#7
-
-	
-SPCIN2	LD R0,SPACE
-	OUT
-	ADD R2,R2,#-1
-	BRnp SPCIN2
-
-	LD R0,T
-	OUT
-	LD R0,E
-	OUT
-	LD R0,X
-	OUT
-	LD R0,A
-	OUT
-	LD R0,S
-	OUT	
-	ADD R1,R1,#-1
-	BRnp THREE
+SCND	LEA R0,SECOND
+	PUTS
 	LD R0,NEWLN
 	OUT
+	JSR DELAY
+	JSR DELAY
+	JSR DELAY
 	JSR DELAY
 	BR FRSTLN
 	
@@ -76,14 +43,11 @@ REP     ADD R1,R1,#-1
 END	HALT
 
 INITIAL	.FILL x3000
-T	.STRINGZ "T"
-E	.STRINGZ "e"
-X	.STRINGZ "x"
-A	.STRINGZ "a"
-S	.STRINGZ "s"
+FIRST	.STRINGZ "Texas       Texas       Texas       Texas"
+SECOND	.STRINGZ "       Texas       Texas       Texas"
 SPACE	.FILL x20
 NEWLN 	.FILL x000A
-COUNT   .FILL #2500
+COUNT   .FILL #9999
 Save_R1 .BLKW 1
 SAVE_R7	.BLKW 1
 KBIV	.FILL x180

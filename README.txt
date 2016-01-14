@@ -1,1 +1,0 @@
-Lab assignments for Aria Pahlavan

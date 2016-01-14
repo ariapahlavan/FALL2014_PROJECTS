@@ -1,0 +1,22 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	A                       1540
+//	CPTL                    1517
+//	DDR                     1537
+//	DSR                     1536
+//	INVLD                   152B
+//	KBDR                    1535
+//	LOWER                   1522
+//	MASK                    1534
+//	NEWLN                   1542
+//	POLL                    1513
+//	POLL2                   1527
+//	SAVER0                  1538
+//	SAVER1                  1539
+//	SAVER2                  153A
+//	SAVER3                  153B
+//	SAVER4                  153C
+//	SAVER5                  153D
+//	SAVER6                  153E
+//	SAVER7                  153F
+//	Z                       1541
